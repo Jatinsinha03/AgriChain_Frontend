@@ -18,7 +18,7 @@ const Dashboard = () => {
         try {
           const provider = new ethers.providers.Web3Provider(window.ethereum);
           const signer = provider.getSigner();
-          const contractAddress = '0x126Cc6C3aD1F2D5Ae76c6933e274Bfe795C885E1'; // Update to your actual contract address
+          const contractAddress = '0x6471EACC40D24bC9F4BAB843560eDFEa190730c5'; // Update to your actual contract address
           const contractABI = abi.abi;
           const contract = new ethers.Contract(contractAddress, contractABI, signer);
           const accounts = await provider.send('eth_requestAccounts', []);
