@@ -145,7 +145,7 @@ tl2.from(accordions, {
 
   async function loginWithMetaMask() {
 
-    const contractAddress = "0x131706C5b428f44294BFa7aA09ae216a01cA30CD";
+    const contractAddress = "0x6471EACC40D24bC9F4BAB843560eDFEa190730c5";
     const contractABI = abi.abi;
 
     // Check if MetaMask is installed
